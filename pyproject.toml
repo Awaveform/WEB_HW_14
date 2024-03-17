@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "web-hw-13"
+version = "0.1.0"
+description = ""
+authors = ["anton <aillarionov@b2bsoft.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.28"
+pydantic = "^2.6.3"
+fastapi-mail = "^1.4.1"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+psycopg2 = "^2.9.9"
+alembic = "^1.13.1"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+python-multipart = "^0.0.9"
+bcrypt = "4.0.1"
+redis = "^5.0.3"
+python-dotenv = "^1.0.1"
+fastapi-limiter = "^0.1.6"
+cloudinary = "^1.39.0"
+pydantic-settings = "^2.2.1"
+pytest = "^8.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^7.2.6"
+
+
+[tool.poetry.group.test.dependencies]
+httpx = "^0.27.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
